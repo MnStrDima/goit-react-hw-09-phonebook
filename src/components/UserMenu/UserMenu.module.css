@@ -1,0 +1,19 @@
+.container{
+display: flex;
+align-items: center;
+margin: 0;
+padding: 20px;
+}
+
+.email {
+font-weight: 700;
+margin-right: 12px;
+margin: 0 10px;
+color: gray;
+text-decoration: none;
+transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email:hover {
+        color: salmon;
+}

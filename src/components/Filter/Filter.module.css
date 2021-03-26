@@ -1,0 +1,15 @@
+.inputWrapper {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 12px 14px 41px -4px rgba(0, 0, 0, 0.78);
+}
+
+.filterLabel {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+.filterInput {
+  margin-top: 10px;
+  outline: none;
+}

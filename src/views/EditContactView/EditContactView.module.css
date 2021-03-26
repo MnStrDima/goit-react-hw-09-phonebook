@@ -1,0 +1,22 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 14px 41px -4px rgba(0, 0, 0, 0.78);
+}
+
+.errorMessage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: red;
+}
+
+.btnWrapper{
+    margin: 0 auto;
+}

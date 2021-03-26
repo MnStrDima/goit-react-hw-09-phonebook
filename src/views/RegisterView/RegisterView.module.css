@@ -1,0 +1,53 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 14px 41px -4px rgba(0, 0, 0, 0.78);
+}
+
+.nameLabel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.numberLabel {
+    composes: nameLabel;
+}
+
+.contactFormInput {
+    outline: none;
+    margin-top: 5px;
+}
+
+.errorMessage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: red;
+}
+
+.submitButton {
+    margin: 0 auto;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(128, 133, 61);
+}
+
+.submitButton:active,
+.submitButton:hover {
+    color: #000000;
+    background-color: #f2ff7b;
+}

@@ -1,0 +1,34 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  
+}
+
+.even {
+  composes: listItem;
+  background-color: rgb(181, 199, 255);
+}
+
+.odd {
+  composes: listItem;
+  background-color: rgb(255, 211, 211);
+}
+
+.deleteButton {
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(128, 133, 61);
+  outline: none;
+}
+
+.deleteButton:active,
+.deleteButton:hover {
+  color: #000000;
+  background-color: rgb(242, 255, 123);
+}

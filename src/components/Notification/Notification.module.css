@@ -1,0 +1,16 @@
+.wrapper {
+  position: fixed;
+  display: block;
+  max-width: 50vw;
+  padding: 15px;
+  background-color: rgb(240, 98, 98);
+  top: 2%;
+  left: 50vw;
+  border-radius: 5px;
+}
+
+.message {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  margin: 0;
+}

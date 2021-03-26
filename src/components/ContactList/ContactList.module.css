@@ -1,0 +1,7 @@
+.contactsList {
+  list-style: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 223, 196);
+  box-shadow: 12px 14px 41px -4px rgba(0, 0, 0, 0.78);
+}

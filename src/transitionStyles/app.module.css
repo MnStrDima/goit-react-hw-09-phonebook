@@ -1,0 +1,12 @@
+.title {
+    margin: 30px 0 10px 10px;
+}
+
+.appear {
+    transform: translatex(-100%);
+}
+
+.appearActive {
+    transform: translatex(0);
+    transition: transform 500ms linear;
+}

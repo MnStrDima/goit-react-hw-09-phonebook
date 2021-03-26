@@ -1,0 +1,10 @@
+.appear {
+    opacity: 0;
+    transform: translatey(-100%);
+}
+
+.appearActive {
+    opacity: 1;
+    transform: translatey(0);
+    transition: transform 500ms linear;
+}
